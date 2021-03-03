@@ -3,6 +3,8 @@ import math
 
 
 def jsons_equal(first: str, second: str) -> bool:
+    """Takes two JSON strings and
+    returns whether objects they represent are equal"""
     first_parsed = json.loads(first)
     second_parsed = json.loads(second)
     return are_equal(first_parsed, second_parsed)
