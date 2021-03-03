@@ -1,0 +1,8 @@
+click
+tqdm
+filetype
+aiohttp
+pytest-mock
+pytest-async
+pytest-aiohttp
+pytest-cov
